@@ -1,0 +1,87 @@
+Sure! Here's an example of an open-source protocol for GitHub to create a .lyric file format for Bitcoin inscriptions:
+
+## Lyric Format Specification for Bitcoin Inscriptions
+
+### File Extension
+
+.lyric
+
+### File Structure
+
+The .lyric file consists of plain text containing the following sections:
+
+1. **Metadata**: Contains information about the inscription, such as the author, title, release date, and any additional relevant details. The metadata section starts with a double asterisk (`**`) followed by the metadata key and value pairs. Each key-value pair is written on a new line. For example:
+
+   ```plaintext
+   **Author: John Doe
+   **Title: Bitcoin Anthem
+   **Release Date: 2023-06-26
+   ```
+
+2. **Lyrics**: Contains the actual Bitcoin inscription lyrics. The lyrics section starts with a double asterisk (`**Lyrics**`) on a new line, followed by the lyrics themselves. Each line of the lyrics should be on a separate line in the .lyric file. For example:
+
+   ```plaintext
+   **Lyrics**
+   Verse 1:
+   Bitcoin, the currency of the future
+   A decentralized revolution, a digital suture
+   
+   Chorus:
+   Rise up, rise up, embrace the blockchain
+   Bitcoin's power, we shall not restrain
+   ```
+
+3. **References**: Contains any references or citations related to the inscription. This section is optional and starts with a double asterisk (`**References**`) on a new line, followed by the references themselves. Each reference should be written on a separate line. For example:
+
+   ```plaintext
+   **References**
+   Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.
+   Antonopoulos, A. M. (2014). Mastering Bitcoin: Unlocking Digital Cryptocurrencies.
+   ```
+
+### Example .lyric File
+
+Here's an example of a complete .lyric file for a Bitcoin inscription:
+
+```plaintext
+**Author: John Doe
+**Title: Bitcoin Anthem
+**Release Date: 2023-06-26
+
+**Lyrics**
+Verse 1:
+Bitcoin, the currency of the future
+A decentralized revolution, a digital suture
+
+Chorus:
+Rise up, rise up, embrace the blockchain
+Bitcoin's power, we shall not restrain
+
+**References**
+Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.
+Antonopoulos, A. M. (2014). Mastering Bitcoin: Unlocking Digital Cryptocurrencies.
+```
+
+### Repository Structure
+
+To store and manage .lyric files on GitHub, you can create a repository with the following structure:
+
+```
+- README.md
+- lyrics/
+  - song1.lyric
+  - song2.lyric
+  - ...
+```
+
+You can have a README.md file to provide information about the repository and any additional instructions or guidelines for contributing.
+
+### Collaboration and Contributions
+
+Since this protocol is open source, you can invite other users to contribute to the repository by submitting their own .lyric files or making changes to existing ones. Users can fork the repository, make changes, and submit pull requests to propose their modifications.
+
+This protocol enables collaborative creation and sharing of Bitcoin inscriptions in a standardized format, allowing users to easily contribute and maintain a collection of lyrical content related to Bitcoin.
+
+Remember to include a license file in your repository to clarify the terms and conditions under which others can use and contribute to the .lyric files.
+
+Please note that this is a basic example, and you can modify or extend the protocol according to your specific needs or preferences.
